@@ -1,0 +1,58 @@
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+.currency-div{
+    background-color: rgba(102, 148, 125, 0.789);
+    padding: 3rem;
+    border-radius: 10px;
+    backdrop-filter: blur(0.4px);
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+}
+.form{
+    padding: 3rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+.input_1, .input_2{
+    padding: 0.3rem;
+    border: none;
+   
+}
+
+.input_1, .input_2:focus{
+    
+
+    outline: none;
+}
+
+.current-to , .current-from{
+    border-radius: 3px;
+    padding: 0.3rem;
+    background-color: rgb(128, 128, 128);
+    color: white;
+    border: 2px solid white;
+}
+button{
+    padding: 0.4rem;
+    background-color: lightblue;
+    border-radius: 3px;
+    color: #000000;
+}
+.h1{
+    color: #ffff;
+   backdrop-filter: blur(1px);
+   padding: 0.3rem;
+   border-radius: 3px;
+}
